@@ -16,7 +16,6 @@ class AuthorCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: Replace return Container(...);
     return Container(
       padding: const EdgeInsets.all(16),
       child: Row(

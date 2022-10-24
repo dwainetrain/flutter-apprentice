@@ -15,7 +15,6 @@ class Card1 extends StatelessWidget {
   Widget build(BuildContext context) {
     //3
     return Center(
-      // TODO: Card1 Decorate Container
       child: Container(
           padding: const EdgeInsets.all(16),
           constraints: const BoxConstraints.expand(
@@ -29,7 +28,6 @@ class Card1 extends StatelessWidget {
             ),
             borderRadius: BorderRadius.all(Radius.circular(10.0)),
           ),
-          // TODO: Add a stack of text
           child: Stack(
             children: [
               Text(

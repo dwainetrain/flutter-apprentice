@@ -11,7 +11,6 @@ class Home extends StatefulWidget {
 }
 
 class HomeState extends State<Home> {
-  // TODO: Add state variables and functions
   int _selectedIndex = 0;
   static List<Widget> pages = <Widget>[
     const Card1(),
@@ -35,12 +34,10 @@ class HomeState extends State<Home> {
           style: Theme.of(context).textTheme.headline6,
         ),
       ),
-      // TODO: Show selected tab
       body: pages[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
           selectedItemColor:
               Theme.of(context).textSelectionTheme.selectionColor,
-          // TODO: Set selected tab bar
           currentIndex: _selectedIndex,
           // TODO: Ask Jim, why don't we send an argument here, ie. index?
           // TODO: Try it, can you change icon and text color
