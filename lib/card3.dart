@@ -1,4 +1,4 @@
-import 'dart:developer';
+import 'dart:developer'; // Allows log to work, print can be unsafe in live apps
 import 'package:flutter/material.dart';
 import 'fooderlich_theme.dart';
 
